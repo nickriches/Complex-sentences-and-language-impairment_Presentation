@@ -1,0 +1,38 @@
+.reveal.reveal img
+{
+    border: none;
+    box-shadow: none;
+    max-height: calc(90vh);
+    max-width: calc(100vw);
+    width: auto;
+}
+
+
+.scrollable {
+    overflow-y: auto  !important;
+    overflow-x: hidden !important;
+    height: 700px;
+}
+
+/* Set background for all headers 1 # slides */
+
+.slide-background:first-child {
+  background-color: orange;
+}
+
+  .reveal p {
+    text-align: left;
+  }
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+
+/* Set background for all headers 1 # slides accept title slide, back to template default */
+
+/* .slide-background > .present {
+  background-color: white;
+  background-image: none;
+} */
